@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "a1e2e863-b8dd-4286-b52b-5f8f62f0a29d",
+		"name": "weather app collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46949792",
+		"_collection_link": "https://refan22-9610323.postman.co/workspace/Refan's-Workspace~576cf8a0-8720-4ce8-8e54-3facc2d4eec2/collection/46949792-a1e2e863-b8dd-4286-b52b-5f8f62f0a29d?action=share&source=collection_link&creator=46949792"
+	},
+	"item": [
+		{
+			"name": "https://api.openweathermap.org/data/2.5/weather?q=Riyadh&appid={{api_key}}&units=metric",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Riyadh&appid={{api_key}}&units=metric",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Riyadh"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
